@@ -1,0 +1,168 @@
+body{
+  margin: 0;
+
+}
+.base{
+  margin: 0;
+  overflow: hidden;
+}
+.text_black{
+  color: rgb(0, 0, 0);
+}
+
+.area_header{
+  vertical-align: baseline;
+}
+.top{
+  position: relative;
+  margin: 0rem;
+  padding: 0rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.logo{
+  padding: 10px;
+  width: 5rem;
+}
+.web{  
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+.webNavi{
+  margin: 0 0 0 auto;
+}
+.gnb{
+  display: flex;
+  height: 100%;
+  margin: 0;
+  border: 0;
+  text-align: center;
+}
+.navi{
+  position: relative;
+  display: table-cell;
+  text-align: center;
+  margin: 0;
+  padding: 2rem 1.5rem;
+  transition: 100ms;
+}
+
+
+.navi{
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-weight: 800;
+  font-size: 1.2rem;
+  transition: 100ms;
+}
+
+.gnb :hover{
+  color: #1482c6;
+  border-bottom: 0.5em solid #1482c6 ;
+  transition: 100ms;
+}
+.gnb a :hover{
+  color: #1482c6;
+  border-bottom: none;
+  transition: 100ms;
+}
+
+.home_title{
+  position: relative;
+  text-align: center;
+  margin: 1.5rem;
+  font-size: 5rem;
+  color: #1482c6;
+}
+
+.home_content{
+  height: 100%;
+  margin-top: 3rem;
+  padding: 3rem 10rem;
+  background: #095f95;
+  color: #ffffff;
+}
+
+.content_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0rem;
+  height: 40rem;
+  background: #1482c6;
+}
+
+.cover_content_img{
+  display: flex;
+  justify-content: center;
+  max-width: 45%;
+  height: 100%;
+  overflow: hidden;
+}
+.content_img{
+  align-self: center;
+  max-width: initial;
+  height: 100%;
+}
+
+
+.content{
+  display: flex;
+  width: 40%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.content_title{
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.content_subtitle{
+  width: 60%;
+  font-size: 1rem;
+  font-weight: 800;
+  margin: 2rem auto;
+}
+
+.content_text{
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.link_box{
+  display: flex;
+}
+
+.link_box a button{
+  background-color: #095f95;
+  border: none;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0.5rem 2rem;
+  height: 80px;
+  border-radius: 15rem;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+  transition: 100ms;
+  cursor: pointer;
+}
+
+.content_link{
+  text-decoration: none;
+  margin: auto;
+  
+}
+.link_box a :hover{
+  background-color: #ffffff;
+  color: #1482c6;
+  transition: 100ms;
+}
+
+
