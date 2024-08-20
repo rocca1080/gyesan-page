@@ -1,0 +1,14 @@
+.act_base{
+    display: flex;
+}
+
+.Category{
+    position: absolute;
+    height: 100%;
+    color: #fff;
+    background: rgb(66, 144, 207);
+    padding: 1rem;
+}
+.button_group{
+    margin: 1rem 7rem;
+}
