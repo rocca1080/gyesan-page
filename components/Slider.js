@@ -43,8 +43,12 @@ const Slider = ({images}) => {
           className="mySwiper"
 
           style={{
-            "--swiper-pagination-color": "#fff",
-            "--swiper-navigation-color": "#fff",
+            "--swiper-pagination-color": "#00b9ff",
+            "--swiper-navigation-color": "#F9F7F7",
+            "--swiper-pagination-bullet-inactive-color": "#fff",
+            "--swiper-pagination-bullet-inactive-opacity": "1",
+            "--swiper-pagination-bottom": "10px",
+            "--swiper-navigation-size": "68px",
           }}
         >
           {

@@ -18,7 +18,8 @@ const Home = () => {
 
   return (
     <div className='base'>
-      <h1 className='home_title'>안녕하세요🎉</h1>
+      <div className='home_title1'>계양구 시설의 개선을 위해 노력하는</div>
+      <div className='home_title2'>지역문제탐구 동아리</div>
       <Slider images={slider_img}/>
 
       <div className='home_content'>
