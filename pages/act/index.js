@@ -15,7 +15,7 @@ const VideoPage2023 = () =>
         <VideoFormat
         title="15 Sorting Algorithms in 6 Minutes"
         link="../video/Sorting_video.mp4"
-        description="시카노코노코노코호시탐탐"
+        description="shikanokonokonokohoshitantan"
         width ={1000}></VideoFormat>
     </div>;
 
