@@ -1,19 +1,73 @@
+import { useState } from "react";
 import Image from "next/image";
 import icon from "/public/img/survey/survey_icon.svg";
 
 export default function survey() {
-  // 'setSurvey' is assigned a value but never used
-  // const [survey, setSurvey] = useState([
-  //   { title: '설문1', start: '2024/11/11', end: '2024/11/12', link: 'https://example.com/survey1', id: 1 },
-  //   { title: '설문2', start: '2024/--/--', end: '2024/--/--', link: 'https://example.com/survey2', id: 2 },
-  //   { title: '설문3', start: '2024/--/--', end: '2024/--/--', link: 'https://example.com/survey3', id: 3 },
-  //   { title: '설문4', start: '2024/--/--', end: '2024/--/--', link: 'https://example.com/survey4', id: 4 },
-  //   { title: '설문5', start: '2024/--/--', end: '2024/--/--', link: 'https://example.com/survey4', id: 5 },
-  //   { title: '설문6', start: '2024/--/--', end: '2024/--/--', link: 'https://example.com/survey4', id: 6 },
-  //   { title: '설문7', start: '2024/--/--', end: '2024/--/--', link: 'https://example.com/survey4', id: 7 },
-  //   { title: '설문8', start: '2024/--/--', end: '2024/--/--', link: 'https://example.com/survey4', id: 8 },
-  //   { title: '설문9', start: '2024/--/--', end: '2024/--/--', link: 'https://example.com/survey4', id: 9 },
-  // ]);
+  const [survey, setSurvey] = useState([
+    {
+      title: "설문1",
+      start: "2024/11/11",
+      end: "2024/11/12",
+      link: "https://example.com/survey1",
+      id: 1,
+    },
+    {
+      title: "설문2",
+      start: "2024/--/--",
+      end: "2024/--/--",
+      link: "https://example.com/survey2",
+      id: 2,
+    },
+    {
+      title: "설문3",
+      start: "2024/--/--",
+      end: "2024/--/--",
+      link: "https://example.com/survey3",
+      id: 3,
+    },
+    {
+      title: "설문4",
+      start: "2024/--/--",
+      end: "2024/--/--",
+      link: "https://example.com/survey4",
+      id: 4,
+    },
+    {
+      title: "설문5",
+      start: "2024/--/--",
+      end: "2024/--/--",
+      link: "https://example.com/survey4",
+      id: 5,
+    },
+    {
+      title: "설문6",
+      start: "2024/--/--",
+      end: "2024/--/--",
+      link: "https://example.com/survey4",
+      id: 6,
+    },
+    {
+      title: "설문7",
+      start: "2024/--/--",
+      end: "2024/--/--",
+      link: "https://example.com/survey4",
+      id: 7,
+    },
+    {
+      title: "설문8",
+      start: "2024/--/--",
+      end: "2024/--/--",
+      link: "https://example.com/survey4",
+      id: 8,
+    },
+    {
+      title: "설문9",
+      start: "2024/--/--",
+      end: "2024/--/--",
+      link: "https://example.com/survey4",
+      id: 9,
+    },
+  ]);
 
   return (
     <div className="survey_base">

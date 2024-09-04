@@ -20,7 +20,7 @@ const Home = () => {
         <ContentR
           title="동아리 소개"
           sub="지역문제탐구 동아리에 대해 소개합니다!"
-          link={"/intro"}
+          link={"intro"}
           img={img1}
         />
 
